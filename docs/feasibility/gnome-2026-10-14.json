@@ -1,0 +1,151 @@
+{
+  "recorded_at_utc": "2026-10-14T23:56:13.561209+00:00",
+  "scope": "Capabilities only; no clipboard content collected",
+  "session": {
+    "XDG_SESSION_TYPE": "wayland",
+    "XDG_CURRENT_DESKTOP": "zorin:GNOME",
+    "GDK_BACKEND": "x11"
+  },
+  "os": {
+    "PRETTY_NAME": "Zorin OS 18.1",
+    "VERSION_ID": "18"
+  },
+  "versions": {
+    "gnome_shell": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "GNOME Shell 46.0",
+      "stderr": ""
+    },
+    "rust": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "stderr": ""
+    },
+    "bun": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "1.4.2",
+      "stderr": ""
+    },
+    "gtk": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "3.24.41",
+      "stderr": ""
+    },
+    "webkitgtk": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "2.52.6",
+      "stderr": ""
+    },
+    "wayland_client": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "1.22.0",
+      "stderr": ""
+    },
+    "xwayland": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "The X.Org Foundation Xwayland Version 23.2.6 (12302006)\nX Protocol Version 11, Revision 0"
+    },
+    "hyprland": {
+      "status": "missing_tool",
+      "tool": "Hyprland"
+    },
+    "sway": {
+      "status": "missing_tool",
+      "tool": "sway"
+    },
+    "weston": {
+      "status": "missing_tool",
+      "tool": "weston"
+    }
+  },
+  "wayland_registry": {
+    "status": "ok",
+    "exit_code": 0,
+    "stdout": "wl_data_device_manager v3",
+    "stderr": ""
+  },
+  "data_control": {
+    "status": "not_advertised",
+    "note": "An advertised protocol is not proof of successful background capture."
+  },
+  "portal": {
+    "status": "ok",
+    "exit_code": 0,
+    "stderr": "",
+    "interfaces": [
+      "org.freedesktop.portal.Account",
+      "org.freedesktop.portal.Background",
+      "org.freedesktop.portal.Camera",
+      "org.freedesktop.portal.Clipboard",
+      "org.freedesktop.portal.Device",
+      "org.freedesktop.portal.DynamicLauncher",
+      "org.freedesktop.portal.Email",
+      "org.freedesktop.portal.FileChooser",
+      "org.freedesktop.portal.GameMode",
+      "org.freedesktop.portal.Inhibit",
+      "org.freedesktop.portal.InputCapture",
+      "org.freedesktop.portal.Location",
+      "org.freedesktop.portal.MemoryMonitor",
+      "org.freedesktop.portal.NetworkMonitor",
+      "org.freedesktop.portal.Notification",
+      "org.freedesktop.portal.OpenURI",
+      "org.freedesktop.portal.PowerProfileMonitor",
+      "org.freedesktop.portal.Print",
+      "org.freedesktop.portal.ProxyResolver",
+      "org.freedesktop.portal.Realtime",
+      "org.freedesktop.portal.RemoteDesktop",
+      "org.freedesktop.portal.ScreenCast",
+      "org.freedesktop.portal.Screenshot",
+      "org.freedesktop.portal.Secret",
+      "org.freedesktop.portal.Settings",
+      "org.freedesktop.portal.Trash",
+      "org.freedesktop.portal.Wallpaper",
+      "org.freedesktop.portal.WebExtensions"
+    ],
+    "global_shortcuts": "not_exposed"
+  },
+  "portal_versions": {
+    "org.freedesktop.portal.Clipboard": {
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": "(<uint32 1>,)",
+      "stderr": ""
+    },
+    "org.freedesktop.portal.GlobalShortcuts": {
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Error: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.GlobalShortcuts”\n(According to introspection data, you need to pass 'ss')"
+    }
+  },
+  "tray_host": {
+    "status": "ok",
+    "exit_code": 0,
+    "stdout": "(true,)",
+    "stderr": ""
+  },
+  "notification_capabilities": {
+    "status": "ok",
+    "exit_code": 0,
+    "stdout": "(['actions', 'body', 'body-markup', 'icon-static', 'persistence', 'sound'],)",
+    "stderr": ""
+  },
+  "app_identifier": "com.felipecepluki.tuck",
+  "checks_not_performed": [
+    "clipboard read/write",
+    "hidden capture",
+    "source closure",
+    "ownership lifetime",
+    "global shortcut registration/conflict",
+    "native versus XWayland end-to-end",
+    "old webview rendering"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "webkit": "2.52.6",
+  "scope": "Feature spike only: no Tailwind stylesheet compiled, no older-webview certification",
+  "status": "completed",
+  "features": {
+    "oklch": true,
+    "colorMix": true,
+    "propertyRegistration": true,
+    "dialog": true,
+    "backdropFilter": true,
+    "grid": true
+  }
+}
